@@ -10,7 +10,6 @@ setup(
     name="junos-eznc",
     version="2.7.2a1",
     namespace_packages=["jnpr"],
-    version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     author="Jeremy Schulman, Nitin Kumar, Rick Sherman, Stacy Smith",
     author_email="jnpr-community-netdev@juniper.net",
