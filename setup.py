@@ -8,7 +8,7 @@ install_reqs = list(filter(None, req_lines))
 
 setup(
     name="junos-eznc",
-    version="2.7.3.dev0"
+    version="2.7.3.dev0",
     namespace_packages=["jnpr"],
     cmdclass=versioneer.get_cmdclass(),
     author="Jeremy Schulman, Nitin Kumar, Rick Sherman, Stacy Smith",
