@@ -8,6 +8,7 @@ install_reqs = list(filter(None, req_lines))
 
 setup(
     name="junos-eznc",
+    version="2.7.2a1",
     namespace_packages=["jnpr"],
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
